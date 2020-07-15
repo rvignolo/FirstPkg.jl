@@ -1,0 +1,13 @@
+name = "FirstPkg"
+uuid = "4d4b24b8-ab2f-47b7-a79e-6195b20a287e"
+authors = ["Ramiro Vignolo <ramirovignolo@gmail.com> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1.2"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]

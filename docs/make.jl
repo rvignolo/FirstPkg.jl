@@ -7,7 +7,7 @@ makedocs(;
     repo="https://github.com/rvignolo/FirstPkg.jl/blob/{commit}{path}#L{line}",
     sitename="FirstPkg.jl",
     format=Documenter.HTML(;
-        prettyurls="false",
+        prettyurls=false,
         canonical="https://rvignolo.github.io/FirstPkg.jl",
         assets=String[],
     ),
